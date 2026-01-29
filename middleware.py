@@ -33,3 +33,4 @@ if opcion in servidores:
             if cmd == "EXIT": break
             print("Respuesta:", canal.recv(4096).decode())
         canal.close()
+        .,

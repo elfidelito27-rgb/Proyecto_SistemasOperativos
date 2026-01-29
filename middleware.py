@@ -3,7 +3,7 @@ import socket
 # LISTA DE SERVIDORES (Simula el descubrimiento de servicios)
 servidores = {
     "1": ("Servidor_Local", "127.0.0.1"),
-    "2": ("Servidor_Remoto_1", "192.168.1.XX") # Aqui se coloca una IP aleatoria
+    "2": ("Servidor_Remoto_1", "192.168.1.XX") # Aqui se coloca una IP aleatoria.
 }
 
 def conectar_a_servidor(ip, puerto=5000):
@@ -33,4 +33,5 @@ if opcion in servidores:
             if cmd == "EXIT": break
             print("Respuesta:", canal.recv(4096).decode())
         canal.close()
+
         .,

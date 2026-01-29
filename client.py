@@ -26,3 +26,4 @@ while True: #bucle infinito hasta el exit comand
         break
 
 client.close()#se cierra el servidor
+...
